@@ -1,0 +1,23 @@
+html{
+  background-color:#f8f8ff;
+}
+
+.flow-content > * { margin-bottom:1rem;}
+.main{background-color:#f8f8ff;}
+
+form{
+  height:45rem
+}
+.logo{
+  max-width:25rem;
+  height:auto;
+}
+@media (max-width: 768px) {
+  form {
+    height: 35rem;
+  }
+  .logo{
+    max-width: 100%;
+    height:auto;
+  }
+}
